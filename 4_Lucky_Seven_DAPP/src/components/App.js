@@ -227,14 +227,14 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="center">
-            <table>
+        <div className="center col-md-6 col-md-offset-4">
+            <table border={2}>
                 <tbody>
-                <tr><td><span>User choice is</span></td><td><span>{this.state.playerChoice}</span></td></tr>
-                <tr><td><span>Computer choice is </span></td><td><span>{this.state.computerChoice}</span></td></tr>
-                <tr><td><span>Result is</span> </td><td><span>{this.state.result}</span></td></tr>
-                <tr><td><span>Player Balance is </span></td><td><span>{this.state.playerTokens}</span></td></tr>
-                <tr><td><span>Computer Balance is </span></td><td><span>{this.state.contractTokens}</span></td></tr>
+                <tr><td><span>User choice </span></td><td><span>{this.state.playerChoice}</span></td></tr>
+                <tr><td><span>Computer choice </span></td><td><span>{this.state.computerChoice}</span></td></tr>
+                <tr><td><span>Result </span> </td><td><span>{this.state.result}</span></td></tr>
+                <tr><td><span>Player Balance  </span></td><td><span>{this.state.playerTokens}</span></td></tr>
+                <tr><td><span>Computer Balance </span></td><td><span>{this.state.contractTokens}</span></td></tr>
                 </tbody>
             </table>
           

@@ -86,11 +86,9 @@
   }
   
   .center {
-    border: 5px solid;
     margin: 50px;
-    width: 300px;
+    width: 250px;
     padding: 10px;
-    background-color:darkseagreen;
     margin-left: 300px;
   }
   .center1 {
