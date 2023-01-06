@@ -143,7 +143,8 @@ class App extends Component {
           </form>
         </div>
         <div className="row">
-          {this.state.participant.map((participant, key) => {
+          { this.state.participant.map((participant, key) => {
+            if(key==0) {}else{
             return (
               <div key={key}>
                 <canvas
@@ -154,7 +155,7 @@ class App extends Component {
                 ></canvas>
               </div>
             );
-          })}
+  }})}
         </div>
       </div>
     );
